@@ -1,0 +1,52 @@
+.userInfo{
+    background-color: #ffffff;
+    height: 92vh;
+    overflow: auto;
+    .back{
+        color: #000000;
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .personalInfo{
+        display: block;
+        text-align: center;
+        margin-top: 45px;
+        .personalInner{
+            width: 50%;
+            margin: auto;
+            .searchField{
+                input{
+                margin: 0 8px;
+                padding: 5px;
+                }
+                button{
+                    background-color: #47b2ff;
+                    cursor: pointer;
+                    color: #ffffff;
+                    border: 1px solid #47b2ff;
+                    border-radius: 5px;
+                    padding: 6px 14px;
+                    &:hover{
+                        background-color: #249ff7;
+                    }
+                }
+            }
+            .userProfession{
+                border-top: 1px solid #e3e3e3;
+                padding-top: 5px;
+                list-style: none;
+                font-weight: bold;
+                padding-left: 0%;
+                text-align: center;
+                .frameworks{
+                    color: #3c3c3c;
+                    list-style: none;
+                    font-size: 14px;
+                    font-weight: initial;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}

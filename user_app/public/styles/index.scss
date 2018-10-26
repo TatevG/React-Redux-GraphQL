@@ -1,0 +1,14 @@
+body{
+    background-color: #ededed;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@import './common.scss';
+@import './loading.scss';
+@import './header.scss';
+@import './users.scss';
+@import './user.scss';
+@import './footer.scss';
